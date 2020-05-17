@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="My Webpage">
+    <meta name="keywordss" content="Hello, World! website">
+    <meta name="author" content="Brian Musembi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+  </head>
+  <body>
+    <h1 align="center"><u>Area of a trapezoid in Brian's Webpage</u></h1>
+    <p><input id="day" type="text" placeholder="Enter In The Day"></p>
+    <p><input id="number" type="text" placeholder="Enter In Your Age"></p>
+    <p><button onclick="myFunction()">Verify</button></p>
+    
+    <script>
+    function myFunction(){
+      var day;
+      var number = document.getElementById("number").value;
+      let age = number;
+      if ((day == "Tuesday" || day == "Thursday") || (age > 12 && age < 21)){
+        alert("You Are Eligible For Student Pricing");}
+      else {
+        alert("You Must Pay Regular Price");}}
+    </script>
+    </body>
+</html>
